@@ -1,4 +1,4 @@
-Name: opt-kf5-kirigami2-addons
+Name: opt-kf5-kirigami-addons
 Version:        0.7.2
 Release:        1%{?dist}
 Epoch:          1
