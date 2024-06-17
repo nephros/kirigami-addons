@@ -54,18 +54,11 @@ Tree view Kirigami addon, which is useful for listing files.
 export QTDIR=%{_opt_qt5_prefix}
 touch .git
 
-mkdir -p build
-pushd build
-
-%_opt_cmake_kf5 ../
-%make_build
-
-popd
+%_opt_cmake_kf5
+%cmake_build
 
 %install
-pushd build
-make DESTDIR=%{buildroot} install
-popd
+%cmake_install
 
 %find_lang %{orig_name} --all-name
 
