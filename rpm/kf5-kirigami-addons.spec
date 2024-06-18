@@ -1,5 +1,5 @@
 Name: opt-kf5-kirigami-addons
-Version:        0.9.0
+Version:        0.11.0
 Release:        1%{?dist}
 License:        LGPLv3
 Summary:        Convergent visual components ("widgets") for Kirigami-based applications
